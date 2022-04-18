@@ -1,4 +1,4 @@
-const Product = require("../models/Product")
+const Product = require("../models/Product");
 
 const getProducts = async(req, res) => {
     const product = await Product.findAll();
@@ -91,7 +91,6 @@ const getVodka = async(req, res) => {
         product
     })
 }
-
 
 
 
